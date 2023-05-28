@@ -2258,12 +2258,7 @@ input[type=color] {
     }
 }
 
-.tp-logo-border {
-    padding: 43px 0;
-    padding-right: 80px;
-    margin-right: 60px;
-    border-right: 1px solid var(--tp-border-3);
-}
+
 
 @media only screen and (min-width: 1600px) and (max-width: 1800px) {
     .tp-logo-border {
@@ -2528,7 +2523,6 @@ input[type=color] {
     padding: 35px 0px;
     padding-left: 45px;
     margin-left: 45px;
-    border-left: 1px solid var(--tp-border-3);
     position: relative;
 }
 
@@ -3139,8 +3133,8 @@ input[type=color] {
 /*  04. hero CSS START
 /*----------------------------------------*/
 .hero-grideant-bg {
-    padding-top: 220px;
-    padding-bottom: 90px;
+    padding-top: 150px;
+    padding-bottom: 10px;
     background-repeat: no-repeat;
 }
 
