@@ -8,7 +8,6 @@
 }
 
 #timeline a {
-    color: #000000;
     text-decoration: none;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
@@ -17,7 +16,7 @@
     transition: 0.5s;
 }
 
-#timeline > a:hover,
+#timeline a:hover,
 a.selected {
     color: #ffcc00;
 }
