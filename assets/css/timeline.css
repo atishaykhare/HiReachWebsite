@@ -5,6 +5,7 @@
     margin: 40px auto;
     position: relative;
     background: url('http://www.csslab.cl/ejemplos/timelinr/latest/images/dot.gif') 3px top repeat-y;
+    padding: 50px 0;
 }
 
 #timeline a {
@@ -18,7 +19,7 @@
 
 #timeline a:hover,
 a.selected {
-    color: #ffcc00;
+    color: var(--tp-common-yellow);
 }
 
 #dates {
@@ -69,9 +70,7 @@ a.selected {
 }
 
 #issues li img {
-/ / float: left;
-    width: 200px;
-/ / add margin: 10 px 30 px 10 px 50 px;
+
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)"; /* IE 8 */
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF); /* IE 6 & 7 */
     zoom: 1;
@@ -88,7 +87,7 @@ a.selected {
 }
 
 #issues li h1 {
-    color: #ffcc00;
+    color:var(--tp-common-yellow);
     font-size: 48px;
     text-align: center;
     text-shadow: #000 1px 1px 2px;
