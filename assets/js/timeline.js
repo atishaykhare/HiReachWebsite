@@ -248,16 +248,16 @@ jQuery.fn.timelinr = function (options) {
                 });
             }
         }
-        // default position startAt, added since 0.9.3
+        // default position startAt
         $(settings.datesDiv + ' li').eq(settings.startAt - 1).find('a').trigger('click');
-        // autoPlay, added since 0.9.4
+        // autoPlay
         if (settings.autoPlay == 'true') {
             setInterval("autoPlay()", settings.autoPlayPause);
         }
     });
 };
 
-// autoPlay, added since 0.9.4
+// autoPlay
 function autoPlay() {
     var currentDate = $(settings.datesDiv).find('a.' + settings.datesSelectedClass);
     if (settings.autoPlayDirection == 'forward') {
@@ -282,6 +282,6 @@ $(function () {
         issuesSpeed: 300,
         datesSpeed: 100,
         arrowKeys: 'true',
-        startAt: 1
+        startAt: 1,
     })
 });

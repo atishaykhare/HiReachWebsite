@@ -9927,7 +9927,7 @@ p.checkout-coupon input[type=text]:focus {
 }
 
 .scroll-top.open {
-    bottom: 30px;
+    bottom: 80px;
 }
 
 .scroll-top::after {
